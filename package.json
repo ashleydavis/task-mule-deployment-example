@@ -1,0 +1,22 @@
+{
+  "name": "task-mule-deployment-example",
+  "version": "1.0.0",
+  "description": "An example of how to deploy task-mule to an Azure Linux VM.",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleydavis/task-mule-deployment-example.git"
+  },
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashleydavis/task-mule-deployment-example/issues"
+  },
+  "homepage": "https://github.com/ashleydavis/task-mule-deployment-example#readme",
+  "dependencies": {
+    "task-mule": "^1.5.5"
+  }
+}
