@@ -1,0 +1,16 @@
+{
+  "description": "",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "dependencies": {
+    "azure-api": "0.0.31",
+    "promised-del": "^1.0.2",
+    "request-promise": "^1.0.2",
+    "sleep-promise": "^1.0.0",
+    "ssh-promise": "^2.1.0",
+    "task-mule": "^1.5.5"
+  }
+}

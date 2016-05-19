@@ -1,0 +1,29 @@
+{
+	"vm-location": "Australia East",
+	"vm-image": "b39f27a8b8c64d52b05eac6a62ebad85__Ubuntu-14_04_3-LTS-amd64-server-20150805-en-us-30GB",
+	"dns-name": "scheduled-job",
+	"vm-name": "scheduled-job",
+	"vm-user": "someuser",
+	"vm-pass": "somePassword1234!",
+	"vm-size": "Basic_A0",
+	"vm-provision-script": "./scripts/mean-stack-provision.sh",
+	"ssh-key": "../keys/your-cert.pem",
+	"ssh-privateKey": "../keys/your-private.key",
+	"deploy-source": "hg-local",
+	"deploy": {
+		"hg": {
+			"local": {
+				"code-repo": "../"
+			},
+			"remote": {
+				"code-repo": "https://bitbucket.org/ashleydavis75/task-mule-deployment-example"				
+			}
+		},
+		"git": {
+			"remote": {
+				"code-repo": "https://github.com/ashleydavis/task-mule-deployment-example"
+			}
+		}
+	},
+	"vm-endpoints": []
+}

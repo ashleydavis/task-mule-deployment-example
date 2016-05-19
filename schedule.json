@@ -1,0 +1,9 @@
+{
+	"jobs": [
+		{
+			"cron": "*/5 * * * *",
+			"name": "daily",
+			"task": "scheduled-job"
+		}
+	]
+}
